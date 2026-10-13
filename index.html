@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cài đặt Cấu hình DNS & Army3</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f5f5f7;
+            color: #1d1d1f;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            background: #ffffff;
+            padding: 24px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            width: 100%;
+            max-width: 480px;
+            text-align: center;
+        }
+        h2 {
+            margin-bottom: 8px;
+            font-size: 22px;
+        }
+        p.subtitle {
+            color: #86868b;
+            font-size: 14px;
+            margin-bottom: 24px;
+        }
+        .step-section {
+            background: #fbfbfd;
+            border: 1px solid #d2d2d7;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .step-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 12px 16px;
+            font-size: 15px;
+            font-weight: 600;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 10px;
+            transition: all 0.2s ease;
+            margin-bottom: 14px;
+        }
+        .btn-primary {
+            background-color: #0071e3;
+            color: #ffffff;
+        }
+        .btn-primary:active {
+            background-color: #005bb5;
+        }
+        .btn-secondary {
+            background-color: #e8e8ed;
+            color: #1d1d1f;
+        }
+        .btn-secondary:active {
+            background-color: #d2d2d7;
+        }
+        .guide-images {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .guide-images img {
+            width: 100%;
+            border-radius: 8px;
+            border: 1px solid #e2e2e7;
+        }
+        .img-caption {
+            font-size: 12px;
+            font-weight: 500;
+            color: #6e6e73;
+            margin-bottom: 4px;
+        }
+        .note {
+            margin-top: 10px;
+            font-size: 12px;
+            color: #86868b;
+            line-height: 1.4;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Cài đặt Army3</h2>
+        <p class="subtitle">Mở trang này bằng Safari trên iPhone</p>
+
+        <!-- Bước 1: Cài đặt DNS -->
+        <div class="step-section">
+            <div class="step-title">Bước 1: Cài đặt cấu hình DNS</div>
+            <a href="https://raw.githubusercontent.com/trannhatlong120499/army3/main/khoindvn.mobileconfig" class="btn btn-secondary">
+                ⚙️ Tải Hồ sơ DNS
+            </a>
+            
+            <div class="guide-images">
+                <div class="img-caption">Hướng dẫn các bước DNS:</div>
+                <img src="DNS-B1.jpg" alt="DNS Bước 1">
+                <img src="DNS-B2.jpg" alt="DNS Bước 2">
+                <img src="DNS-B3.jpg" alt="DNS Bước 3">
+                <img src="DNS-B4.jpg" alt="DNS Bước 4">
+                <img src="DNS-B5.jpg" alt="DNS Bước 5">
+                <img src="DNS-B6.jpg" alt="DNS Bước 6">
+            </div>
+        </div>
+
+        <!-- Bước 2: Cài đặt IPA -->
+        <div class="step-section">
+            <div class="step-title">Bước 2: Cài đặt ứng dụng Army3</div>
+            <a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/trannhatlong120499/army3/main/pa.plist" class="btn btn-primary">
+                📱 Cài đặt Army3
+            </a>
+
+            <div class="guide-images">
+                <div class="img-caption">Hướng dẫn các bước cài ứng dụng:</div>
+                <img src="Army3-B1.jpg" alt="Army3 Bước 1">
+                <img src="Army3-B2.jpg" alt="Army3 Bước 2">
+                <img src="Army3-B3.jpg" alt="Army3 Bước 3">
+            </div>
+        </div>
+
+        <div class="note">
+            💡 <strong>Lưu ý:</strong> Hoàn tất cài đặt hồ sơ DNS ở <em>Cài đặt > Đã tải về hồ sơ</em> trước khi tiến hành cài đặt ứng dụng ở Bước 2.
+        </div>
+    </div>
+
+</body>
+</html>
